@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: black;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+#home {
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+h2 {
+    color: #343a40;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* About Me Section */
+#about p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+#about {
+    background-color: papayawhip;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Services Section */
+#services h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #5f2c82;
+}
+
+#services p {
+    font-size: 18px;
+    color: #666;
+}
+
+#services {
+    background-color: whitesmoke;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Business Card */
+#business-card img {
+    display: block;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#business-card h2 {
+    color: #343a40;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#business-card p {
+    color: #555;
+    font-size: 16px;
+}
+
+#business-card {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #5f2c82;
+    color: white;
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+}
+
+#contact a {
+    color: #49a09d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #f8f9fa;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3b8070;
+}
